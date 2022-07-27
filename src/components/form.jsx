@@ -37,6 +37,7 @@ export default function Form() {
       setDataArray(temp);
     }
   };
+  
   return (
     <div className="container main-parent-div">
       <div className="parent-div">
