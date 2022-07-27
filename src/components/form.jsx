@@ -10,6 +10,7 @@ export default function Form() {
   const [age, setAge] = useState("");
   const [password, setPassword] = useState("");
   const [dataArray, setDataArray] = useState([]);
+
   console.log("dataArray :>> ", dataArray);
 
   const submitHandler = () => {
